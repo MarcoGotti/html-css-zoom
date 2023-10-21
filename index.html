@@ -15,12 +15,12 @@
                 <i class="fa-solid fa-layer-group"></i>
                 Speaker View
             </div>
-            <div class="screen"><i class="fa-solid fa-arrows-up-down-left-right"></i></div>
+            <div class="screen"><i class="fa-solid fa-maximize"></i></div>
         </div>
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div class="container py-1">
+        <div class="container">
             <div class="row gap">
                 <div class="col-7">
                     <div class="user pos-rel">
@@ -215,15 +215,58 @@
         </div>
     </main>
     <!-- /#site_main -->
-    <footer id="site_footer">      
-            <div class="d-flex">
-                <div class="item d-flex">
-                    <div class="function">
-                        <div class="symbol"><i class="fa-brands fa-microsoft"></i></div>
-                        <div class="written">Mute</div>
-                    </div>
-                    <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
-                </div>
+    <footer id="site_footer" class="d-flex sp-btw">
+        <div class="item d-flex">
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-microphone"></i></div>
+                <div class="written">Mute</div>
+            </div>
+            <div class="arrow pl-075"><i class="fa-solid fa-chevron-up"></i></div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-video"></i></div>
+                <div class="written">Stop Video</div>
+            </div>
+            <div class="arrow pl-075"><i class="fa-solid fa-chevron-up"></i></div>
+        </div> 
+        <!-- item-right -->
+        <div class="item d-flex">
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-user-plus"></i></div>
+                <div class="written">Invite</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-user-group"></i></div>
+                <div class="written">Manage Participants</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-sharp fa-solid fa-chart-column"></i></i></div>
+                <div class="written">Polling</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol active"><i class="fa-solid fa-share-from-square"></i></div>
+                <div class="written">Share Screen</div>
+            </div>
+            <div class="arrow pl-075"><i class="fa-solid fa-chevron-up"></i></div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-comment"></i></div>
+                <div class="written">Chat</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol"><i class="fa-solid fa-record-vinyl"></i></div>
+                <div class="written">Record</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol green"><i class="fa-brands fa-microsoft"></i></div>
+                <div class="written">Breakout Rooms</div>
+            </div>
+            <div class="function d-flex flex-column pl-075">
+                <div class="symbol green"><i class="fa-solid fa-ellipsis"></i></div>
+                <div class="written">More</div>
+            </div>
+        </div>  
+        <div class="item-right">End Meeting</div>   
+        
+                
                 <!-- <div class="item d-flex">
                     <div class="function">
                         <div class="symbol"><i class="fa-brands fa-microsoft"></i></div>
@@ -231,7 +274,7 @@
                     </div>
                     <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
                 </div> -->
-            </div>
+        
     </footer>
     <!-- /#site_footer -->
     
