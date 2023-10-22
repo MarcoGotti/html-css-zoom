@@ -24,6 +24,7 @@ body{
 img{
     width: 100%;
     /* height: 100%; */
+    display: block;
 }
 
 .container{
@@ -113,7 +114,7 @@ width: calc((100% / 7) - 0.5rem) se uso margin. --> 0.25*2 per ogni singola colo
 }
 
 .specifics{
-    bottom: 2px;
+    bottom: 0;
     background-color: var(--zoom-specifics);
     padding: 0.25rem;
 }
